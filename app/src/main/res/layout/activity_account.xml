@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddAccountDetails"
+    android:background="@drawable/mainback">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="140dp">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/profile_pic"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_marginStart="140dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="141dp"
+                android:layout_marginBottom="13dp"
+                android:background="@drawable/ic_action_name"
+                android:scaleType="centerCrop"
+                app:layout_constraintBottom_toTopOf="@+id/acc_sapid"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/course2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="42dp"
+                android:layout_marginTop="34dp"
+                android:layout_marginEnd="214dp"
+                android:layout_marginBottom="21dp"
+                android:text="Stream/Department"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="#fffFFF"
+                app:layout_constraintBottom_toTopOf="@+id/acc_stream"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/acc_phoneno" />
+
+            <EditText
+                android:id="@+id/acc_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="99dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="99dp"
+                android:ems="10"
+                android:hint="Name"
+                android:inputType="textPersonName"
+                android:selectAllOnFocus="false"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                app:layout_constraintBottom_toTopOf="@+id/acc_phoneno"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/profile_pic" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="78dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/course"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0">
+
+                <RadioButton
+                    android:id="@+id/rbcourse1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="B.Tech"
+                    android:textColor="#ffffff" />
+
+                <RadioButton
+                    android:id="@+id/rbcourse2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MBA.Tech"
+                    android:textColor="#ffffff" />
+
+                <RadioButton
+                    android:id="@+id/rbcourse3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="M.Tech"
+                    android:textColor="#ffffff" />
+
+                <RadioButton
+                    android:id="@+id/rbcourse4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="B.Tech Int."
+                    android:textColor="#ffffff" />
+
+                <RadioButton
+                    android:id="@+id/rbcourse5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Faculty"
+                    android:textColor="#ffffff" />
+            </RadioGroup>
+
+            <!--<EditText-->
+            <!--android:id="@+id/acc_sapid"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginStart="99dp"-->
+            <!--android:layout_marginTop="148dp"-->
+            <!--android:layout_marginEnd="99dp"-->
+            <!--android:ems="10"-->
+            <!--android:hint="SAP ID"-->
+            <!--android:inputType="number"-->
+            <!--app:layout_constraintBottom_toTopOf="@+id/acc_name"-->
+            <!--app:layout_constraintEnd_toEndOf="parent"-->
+            <!--app:layout_constraintHorizontal_bias="0.0"-->
+            <!--app:layout_constraintStart_toStartOf="parent"-->
+            <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+            <EditText
+                android:id="@+id/acc_phoneno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="99dp"
+                android:layout_marginEnd="99dp"
+                android:layout_marginBottom="264dp"
+                android:ems="10"
+                android:hint="Phone Number"
+                android:inputType="number"
+                android:textColorHint="#FFFFFF"
+                android:textColor="#ffffff"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Spinner
+                android:id="@+id/acc_stream"
+                android:layout_width="326dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="21dp"
+                android:layout_marginBottom="164dp"
+                android:entries="@array/Stream"
+                android:textAlignment="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.494"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/course2"
+                app:layout_constraintVertical_bias="0.132" />
+
+
+            <TextView
+                android:id="@+id/course"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="96dp"
+                android:layout_marginEnd="75dp"
+                android:text="Courses"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="#FFFFFF"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/radioGroup"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.904" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="162dp"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="169dp"
+                android:layout_marginBottom="16dp"
+                android:text="Add Image"
+                android:textColor="#FFFFFF"
+                app:layout_constraintBottom_toTopOf="@+id/acc_name"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/profile_pic"
+                tools:text="Insert Image" />
+
+            <Button
+                android:id="@+id/acc_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="154dp"
+                android:layout_marginTop="300dp"
+
+                android:background="?android:attr/colorControlHighlight"
+                android:text="Add Details"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/radioGroup"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/radioGroup"
+                app:layout_constraintVertical_bias="1.0" />
+
+        </android.support.constraint.ConstraintLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

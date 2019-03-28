@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".UpdateAccount"
+    tools:showIn="@layout/activity_update_account"
+    android:background="@drawable/mainback">
+
+
+    <TextView
+        android:id="@+id/acc_course"
+        android:layout_width="295dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="494dp"
+        android:background="?attr/colorControlHighlight"
+        android:gravity="center"
+        android:text="Course"
+        android:textColor="#ffffff"
+        android:textSize="23dp" />
+
+
+    <TextView
+        android:id="@+id/acc_stream"
+        android:layout_width="295dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="427dp"
+        android:background="?attr/colorControlHighlight"
+        android:gravity="center"
+        android:text="Stream"
+        android:textColor="#ffffff"
+        android:textSize="23dp" />
+
+    <TextView
+        android:id="@+id/acc_phno"
+        android:layout_width="295dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="359dp"
+        android:background="?attr/colorControlHighlight"
+        android:gravity="center"
+        android:text="Phone Number"
+        android:textColor="#ffffff"
+        android:textSize="23dp" />
+
+    <TextView
+        android:id="@+id/acc_sapid"
+        android:layout_width="294dp"
+        android:layout_height="50dp"
+        android:layout_alignEnd="@+id/acc_phno"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="292dp"
+        android:layout_marginEnd="-2dp"
+        android:background="?attr/colorControlHighlight"
+        android:gravity="center"
+        android:text="SAP ID"
+        android:textColor="#ffffff"
+        android:textSize="23dp" />
+
+    <TextView
+        android:id="@+id/acc_name"
+        android:layout_width="295dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="224dp"
+        android:background="?attr/colorControlHighlight"
+        android:gravity="center"
+        android:text="Name"
+        android:textColor="#ffffff"
+        android:textSize="23dp" />
+
+    <ImageView
+        android:id="@+id/photophoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="34dp"
+        android:foregroundGravity="center"
+        tools:srcCompat="@tools:sample/avatars" />
+
+
+</RelativeLayout>
+
+

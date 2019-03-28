@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Library</string>
+    <string name="forgot_password_msg">We just need your registered Email Id to sent you password reset instructions.</string>
+    <string name="btn_back">
+<![CDATA[<< Back]]>
+</string>
+    <string name="title_activity_issue">Issue</string>
+    <string-array name="Course">
+        <item> B.Tech </item>
+        <item> MBA Tech</item>
+        <item> M.Tech </item>
+        <item> B.Tech Int.</item>
+        <item> Faculty.</item>
+    </string-array>
+
+    <string-array name="Stream">
+        <item> Computer Science </item>
+        <item> EXTC </item>
+        <item> Data Science </item>
+        <item> IT </item>
+        <item>Civil</item>
+        <item>Mechanical</item>
+        <item>Chemical</item>
+    </string-array>
+
+    <string-array name="my_book">
+
+        <item>ADC</item>
+        <item>CN</item>
+        <item>PE</item>
+        <item>OS</item>
+        <item>TCS</item>
+    </string-array>
+
+    <string name="navigation_drawer_open">Open Navigation drawer</string>
+    <string name="navigation_drawer_close">Close Navigation drawer</string>
+    <string name="title_activity_update_account">UpdateAccount</string>
+    <string name="title_activity_admin_user">AdminUser</string>
+</resources>

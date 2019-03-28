@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single"
+        >
+
+        <item
+            android:id="@+id/users"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="Users"></item>
+
+        <item
+            android:id="@+id/searchBySubject"
+            android:icon="@drawable/ic_search"
+            android:title="Search by subject"></item>
+
+        <item
+            android:id="@+id/pay"
+            android:icon="@drawable/ic_payment_black_24dp"
+            android:title="Return"></item>
+
+        <item
+            android:id="@+id/addbooks"
+            android:icon="@drawable/ic_library_books_black_24dp"
+            android:title="Add Books">
+
+        </item>
+
+        <item
+            android:id="@+id/DocumentUpload"
+            android:icon="@drawable/ic_book_black_24dp"
+            android:title="Documents"> </item>
+
+            <item
+                android:id="@+id/req"
+                android:icon="@drawable/ic_list_black_24dp"
+                android:title="Book Requests"></item>
+
+
+
+
+
+
+
+    </group>
+
+    <item android:title="Navigate">
+        <menu>
+            <item
+                android:id="@+id/home1"
+                android:icon="@drawable/ic_search"
+                android:title="Home"></item>
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/logout"
+                android:title="Logout"></item>
+        </menu>
+    </item>
+</menu>

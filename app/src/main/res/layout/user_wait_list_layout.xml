@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:background="@color/white1"
+    android:weightSum="100">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textViewWaitNo"
+
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:layout_marginTop="2dp"
+
+            android:text="Wait No"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewDate" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Name"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/textViewDate"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewDate"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="2dp"
+            android:text="Date"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            app:layout_constraintBottom_toTopOf="@+id/textViewWaitNo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+    </android.support.constraint.ConstraintLayout>
+
+    <!--<TextView-->
+    <!--android:id="@+id/textViewname"-->
+
+    <!--android:layout_width="200dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="0"-->
+    <!--android:paddingLeft="40dp"-->
+    <!--android:text="TextView"-->
+    <!--android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imageView_display1"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="0"-->
+    <!--tools:srcCompat="@drawable/ic_list_black_24dp"-->
+    <!--android:layout_gravity="end"/>-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imageView_display"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="end"-->
+    <!--android:layout_weight="0"-->
+    <!--tools:srcCompat="@drawable/ic_search" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/textViewid"-->
+    <!--android:paddingLeft="40dp"-->
+    <!--android:layout_width="200dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="0"-->
+    <!--android:text="TextView" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/textViewauthor"-->
+    <!--android:paddingLeft="40dp"-->
+    <!---->
+    <!--android:layout_width="200dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="0"-->
+    <!--android:text="TextView" />-->
+
+    <!--android:layout_width="match_parent"-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imageViewbook"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:src="@drawable/red circle"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="0"-->
+    <!--/>-->
+
+</LinearLayout>
+

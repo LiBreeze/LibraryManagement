@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/header2"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:layout_height="220dp"
+    android:gravity="bottom"
+    android:padding="16dp">
+    
+    <!--<de.hdodenhof.circleimageview.CircleImageView-->
+        <!--android:layout_width="85dp"-->
+        <!--android:layout_height="72dp"-->
+        <!--android:src="@drawable/newnewback"-->
+
+        <!--/>-->
+    <!---->
+
+    <!--<android.support.v7.widget.CardView-->
+        <!--android:layout_width="80dp"-->
+        <!--android:layout_height="80dp"-->
+        <!--android:elevation="12dp"-->
+        <!--android:id="@+id/view2"-->
+        <!--app:cardCornerRadius="40dp"-->
+        <!--android:layout_marginTop="500dp"-->
+        <!--android:layout_centerHorizontal="true">-->
+        <!--<ImageView-->
+            <!--android:id="@+id/imageView_display"-->
+            <!--android:layout_width="85dp"-->
+            <!--android:layout_height="72dp"-->
+            <!--android:src="@drawable/ic_library_books_black_24dp"-->
+            <!--android:layout_marginHorizontal="70dp"-->
+            <!--/>-->
+
+    <!--</android.support.v7.widget.CardView>-->
+
+    <android.support.v7.widget.CardView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:elevation="12dp"
+        android:id="@+id/view2"
+        app:cardCornerRadius="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="70dp"
+        android:layout_centerHorizontal="true">
+        <ImageView
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:id="@+id/imageView_display"
+            android:src="@drawable/ic_list_black_24dp"
+            android:scaleType="centerCrop"/>
+
+
+
+    </android.support.v7.widget.CardView>
+
+    <!--<de.hdodenhof.circleimageview.CircleImageView-->
+        <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+        <!--android:id="@+id/imageView_display"-->
+        <!--android:layout_width="96dp"-->
+        <!--android:layout_height="96dp"-->
+        <!--android:src="@drawable/ic_list_black_24dp"-->
+        <!--app:civ_border_width="2dp"-->
+        <!--app:civ_border_color="#FF000000"/>-->
+
+
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView_name"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:paddingTop="8dp"-->
+        <!--android:text="Library"-->
+        <!--android:textAppearance="@style/ThemeOverlay.AppCompat"-->
+        <!--android:textSize="30sp" />-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Library"
+        android:id="@+id/textView_name"
+        android:textAppearance="@style/ThemeOverlay.AppCompat"
+        android:textSize="30sp"
+        />
+
+    <TextView
+        android:id="@+id/textView_email"
+        android:layout_width="wrap_content"
+
+        android:layout_height="50dp"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+
+</LinearLayout>
